@@ -1,3 +1,3 @@
 # TR_GRAFKOM_F_672019320
 
-MOHON MAAF KAK BARU UPLOAD GITHUB, KELUPAAN, DAN EMANG BARU BUAT 2-3 HARI INI,KARENA KEMARIN BANYAK KESIBUKAN
+Mohon maaf kak baru upload ke Github sekarang, dan baru ngoding 2-3 hari ini karena ada banyak kesibukan
