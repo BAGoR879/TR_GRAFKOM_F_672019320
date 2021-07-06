@@ -2,6 +2,11 @@
 #include <gl/glut.h>
 #include <stdlib.h>
 
+
+//672019320	Rivaldo Pranandito
+//672018347	Bramastya Arya G R
+//672019309	Febrina Tesalonika N
+
 void init(void);
 void tampil(void);
 void mouse(int button,int state, int x, int y);
