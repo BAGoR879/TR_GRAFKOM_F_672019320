@@ -2,6 +2,10 @@
 #include <gl/glut.h>
 #include <stdlib.h>
 
+//672019320	Rivaldo Pranandito
+//672018347	Bramastya Arya G
+//672019309	Febrina Tesalonika N
+
 void init(void);
 void tampil(void);
 void mouse(int button,int state, int x, int y);
@@ -869,8 +873,8 @@ glBegin(GL_QUADS);
 glBegin(GL_QUADS);
 	glColor3ub(128,128,128);
 	glVertex3f(-200,-50,-150);
-	glVertex3f(-200,140,-150);
-	glVertex3f(150,140,-150);
+	glVertex3f(-200,145,-150);
+	glVertex3f(150,145,-150);
 	glVertex3f(150,-50,-150);
 	glEnd();
 
@@ -1244,21 +1248,70 @@ glBegin(GL_QUADS);
 
 glBegin(GL_QUADS);
 	glColor3ub(110,90,110);
-	glVertex3f(45,50,11); /// 0
+	glVertex3f(45,50,11); // 0
 	glVertex3f(45,50,5);
 	glVertex3f(60,50,5);
 	glVertex3f(60,50,11);
 	glEnd();
-
+//jendela atas3
 glBegin(GL_QUADS);
 	glColor3ub(110,90,110);
-	glVertex3f(45,115,11); /// 1
-	glVertex3f(45,115,5);
-	glVertex3f(60,115,5);
-	glVertex3f(60,115,11);
+	glVertex3f(-115,95,10.5);
+	glVertex3f(-115,100,10.5);
+	glVertex3f(75,100,10.5);
+	glVertex3f(75,95,10.5);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(52,100,5);
+	glVertex3f(52,130,5);
+	glVertex3f(53,130,5);
+	glVertex3f(53,100,5);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(45,130,5);
+	glVertex3f(45,131,5);
+	glVertex3f(60,131,5);
+	glVertex3f(60,130,5);
 	glEnd();
 
 
+glBegin(GL_QUADS);
+	glColor3ub(110,110,110);
+	glVertex3f(45,100,10);
+	glVertex3f(45,100,5);
+	glVertex3f(45,145,5);
+	glVertex3f(45,145,10);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,110,110);
+	glVertex3f(60,100,10);
+	glVertex3f(60,100,5);
+	glVertex3f(60,145,5);
+	glVertex3f(60,145,10);
+	glEnd();
+
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110); // 0
+	glVertex3f(45,145,10);
+	glVertex3f(45,145,5);
+	glVertex3f(60,145,5);
+	glVertex3f(60,145,10);
+	glEnd();
+
+
+
+
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(45,100,11); // 0
+	glVertex3f(45,100,5);
+	glVertex3f(60,100,5);
+	glVertex3f(60,100,11);
+	glEnd();
+
+//akhir
 glBegin(GL_QUADS);
 	glColor3ub(110,90,110);
 	glVertex3f(0,95,10); // 0
@@ -1278,10 +1331,10 @@ glBegin(GL_QUADS);
 
 glBegin(GL_QUADS);
 	glColor3ub(110,90,110);
-	glVertex3f(0,160,10);
-	glVertex3f(0,160,5);
-	glVertex3f(20,160,5);
-	glVertex3f(20,160,10);
+	glVertex3f(0,145,10);
+	glVertex3f(0,145,5);
+	glVertex3f(20,145,5);
+	glVertex3f(20,145,10);
 	glEnd();
 
 
@@ -1522,6 +1575,13 @@ glBegin(GL_QUADS);
 	glutSolidCube(0.1);
 	glDisable(GL_COLOR_MATERIAL);
 	glPopMatrix();
+glBegin(GL_QUADS);
+    glColor3ub(110,90,110);
+	glVertex3f(-115,145,-150);
+	glVertex3f(-115,145,10);
+	glVertex3f(75,145,10);
+	glVertex3f(75,145,-150);
+	glEnd();
 
 
 //bawah
