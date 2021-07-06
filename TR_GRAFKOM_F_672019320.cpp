@@ -9,6 +9,7 @@
 void init(void);
 void tampil(void);
 void mouse(int button,int state, int x, int y);
+void mouse(int button,int state, int x, int y);
 void keyboard(unsigned char key, int x, int y);
 void ukuran (int, int);
 void mouseMotion(int x,int y);
@@ -1312,6 +1313,204 @@ glBegin(GL_QUADS);
 	glEnd();
 
 //akhir
+
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(0,145,10); // 0
+	glVertex3f(0,145,5);
+	glVertex3f(20,145,5);
+	glVertex3f(20,145,10);
+	glEnd();
+
+
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-30,145,10);
+	glVertex3f(-30,145,5);
+	glVertex3f(-10,145,5); // 0
+	glVertex3f(-10,145,10);
+	glEnd();
+
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-60,145,10);
+	glVertex3f(-60,145,5); // 0
+	glVertex3f(-40,145,5);
+	glVertex3f(-40,145,10);
+	glEnd();
+
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-100,145,10);
+	glVertex3f(-100,145,5); // 0
+	glVertex3f(-85,145,5);
+	glVertex3f(-85,145,10);
+	glEnd();
+
+glBegin(GL_QUADS);
+	glColor3ub(110,110,110);
+	glVertex3f(20,100,10);
+	glVertex3f(20,100,5);
+	glVertex3f(20,145,5);
+	glVertex3f(20,145,10);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,110,110);
+	glVertex3f(0,100,10);
+	glVertex3f(0,100,5);
+	glVertex3f(0,145,5);
+	glVertex3f(0,145,10);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,110,110);
+	glVertex3f(-10,100,10);
+	glVertex3f(-10,100,5);
+	glVertex3f(-10,145,5);
+	glVertex3f(-10,145,10);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,110,110);
+	glVertex3f(-30,100,10);
+	glVertex3f(-30,100,5);
+	glVertex3f(-30,145,5);
+	glVertex3f(-30,145,10);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,110,110);
+	glVertex3f(-40,100,10);
+	glVertex3f(-40,100,5);
+	glVertex3f(-40,145,5);
+	glVertex3f(-40,145,10);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,110,110);
+	glVertex3f(-60,100,10);
+	glVertex3f(-60,100,5);
+	glVertex3f(-60,145,5);
+	glVertex3f(-60,145,10);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,110,110);
+	glVertex3f(-85,100,10);
+	glVertex3f(-85,100,5);
+	glVertex3f(-85,145,5);
+	glVertex3f(-85,145,10);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,110,110);
+	glVertex3f(-100,100,10);
+	glVertex3f(-100,100,5);
+	glVertex3f(-100,145,5);
+	glVertex3f(-100,145,10);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-100,100,11);
+	glVertex3f(-100,100,5);
+	glVertex3f(-85,100,5);
+	glVertex3f(-85,100,11);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-60,100,11);
+	glVertex3f(-60,100,5);
+	glVertex3f(-40,100,5);
+	glVertex3f(-40,100,11);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-30,100,11);
+	glVertex3f(-30,100,5);
+	glVertex3f(-10,100,5);
+	glVertex3f(-10,100,11);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(0,100,11);
+	glVertex3f(0,100,5);
+	glVertex3f(20,100,5);
+	glVertex3f(20,100,11);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(13,100,5);
+	glVertex3f(13,145,5);
+	glVertex3f(14,145,5);
+	glVertex3f(14,100,5);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(6,100,5);
+	glVertex3f(6,145,5);
+	glVertex3f(7,145,5);
+	glVertex3f(7,100,5);
+	glEnd();
+
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-16,100,5);
+	glVertex3f(-16,145,5);
+	glVertex3f(-17,145,5);
+	glVertex3f(-17,100,5);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-23,100,5);
+	glVertex3f(-23,145,5);
+	glVertex3f(-24,145,5);
+	glVertex3f(-24,100,5);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-46,100,5);
+	glVertex3f(-46,145,5);
+	glVertex3f(-47,145,5);
+	glVertex3f(-47,100,5);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-53,100,5);
+	glVertex3f(-53,145,5);
+	glVertex3f(-54,145,5);
+	glVertex3f(-54,100,5);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(0,130,5);
+	glVertex3f(0,131,5);
+	glVertex3f(20,131,5);
+	glVertex3f(20,130,5);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-30,130,5);
+	glVertex3f(-30,131,5);
+	glVertex3f(-10,131,5);
+	glVertex3f(-10,130,5);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-60,130,5);
+	glVertex3f(-60,131,5);
+	glVertex3f(-40,131,5);
+	glVertex3f(-40,130,5);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-93,100,5);
+	glVertex3f(-93,130,5);
+	glVertex3f(-94,130,5);
+	glVertex3f(-94,100,5);
+	glEnd();
+glBegin(GL_QUADS);
+	glColor3ub(110,90,110);
+	glVertex3f(-100,130,5);
+	glVertex3f(-100,131,5);
+	glVertex3f(-85,131,5);
+	glVertex3f(-85,130,5);
+	glEnd();
+
+//awal 1
 glBegin(GL_QUADS);
 	glColor3ub(110,90,110);
 	glVertex3f(0,95,10); // 0
@@ -1319,24 +1518,6 @@ glBegin(GL_QUADS);
 	glVertex3f(20,95,5);
 	glVertex3f(20,95,10);
 	glEnd();
-glBegin(GL_QUADS);
-	glColor3ub(110,90,110);
-	glVertex3f(0,160,10); // 1
-	glVertex3f(0,160,5);
-	glVertex3f(20,160,5);
-	glVertex3f(20,160,10);
-	glEnd();
-
-
-
-glBegin(GL_QUADS);
-	glColor3ub(110,90,110);
-	glVertex3f(0,145,10);
-	glVertex3f(0,145,5);
-	glVertex3f(20,145,5);
-	glVertex3f(20,145,10);
-	glEnd();
-
 
 
 glBegin(GL_QUADS);
@@ -1349,14 +1530,6 @@ glBegin(GL_QUADS);
 
 glBegin(GL_QUADS);
 	glColor3ub(110,90,110);
-	glVertex3f(-30,160,10);
-	glVertex3f(-30,160,5); // 1
-	glVertex3f(-10,160,5);
-	glVertex3f(-10,160,10);
-	glEnd();
-
-glBegin(GL_QUADS);
-	glColor3ub(110,90,110);
 	glVertex3f(-60,95,10);
 	glVertex3f(-60,95,5); // 0
 	glVertex3f(-40,95,5);
@@ -1365,30 +1538,11 @@ glBegin(GL_QUADS);
 
 glBegin(GL_QUADS);
 	glColor3ub(110,90,110);
-	glVertex3f(-60,160,10);
-	glVertex3f(-60,160,5); // 1
-	glVertex3f(-40,160,5);
-	glVertex3f(-40,160,10);
-	glEnd();
-
-
-glBegin(GL_QUADS);
-	glColor3ub(110,90,110);
 	glVertex3f(-100,95,10);
 	glVertex3f(-100,95,5); // 0
 	glVertex3f(-85,95,5);
 	glVertex3f(-85,95,10);
 	glEnd();
-
-
-glBegin(GL_QUADS);
-	glColor3ub(110,90,110);
-	glVertex3f(-100,160,10);
-	glVertex3f(-100,160,5); // 0
-	glVertex3f(-85,160,5);
-	glVertex3f(-85,160,10);
-	glEnd();
-
 
 glBegin(GL_QUADS);
 	glColor3ub(110,110,110);
@@ -1553,7 +1707,7 @@ glBegin(GL_QUADS);
 	glVertex3f(-85,80,5);
 	glEnd();
 
-
+//akhir 1
 
 
 //karpet
