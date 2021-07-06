@@ -68,8 +68,8 @@ void tampil (void){
 	glBegin(GL_QUADS);
 	glColor3f(1,1,1);
 	glVertex3f(20,-50,10);
-	glVertex3f(20,95,10); //tembok putih 1
-	glVertex3f(30,95,10);
+	glVertex3f(20,145,10); //tembok putih 1
+	glVertex3f(30,145,10);
 	glVertex3f(30,-50,10);
 	glEnd();
 
@@ -83,22 +83,22 @@ void tampil (void){
 	glBegin(GL_QUADS);
 	glColor3f(1,1,1);
 	glVertex3f(-10,-35,10);
-	glVertex3f(-10,95,10);
-	glVertex3f(0,95,10); //tembok putih 2
+	glVertex3f(-10,145,10);
+	glVertex3f(0,145,10); //tembok putih 2
 	glVertex3f(0,-35,10);
 	glEnd();
 	glBegin(GL_QUADS);
 	glColor3f(1,1,1);
 	glVertex3f(-40,-35,10);
-	glVertex3f(-40,95,10);
-	glVertex3f(-30,95,10);
+	glVertex3f(-40,145,10);
+	glVertex3f(-30,145,10);
 	glVertex3f(-30,-35,10);
 	glEnd();
 	glBegin(GL_QUADS);
 	glColor3f(1,1,1);
 	glVertex3f(-70,-50,10);
-	glVertex3f(-70,95,10);
-	glVertex3f(-60,95,10);
+	glVertex3f(-70,145,10);
+	glVertex3f(-60,145,10);
 	glVertex3f(-60,-50,10);
 	glEnd();
 	glBegin(GL_QUADS);
